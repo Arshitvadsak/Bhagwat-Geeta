@@ -37,7 +37,7 @@ class _Verses_PageState extends State<Verses_Page> {
                           decoration: BoxDecoration(
                               border: Border.all(width: 2, color: Colors.black),
                               borderRadius: BorderRadius.circular(20),
-                              color: Colors.black12),
+                              color: Colors.white),
                           child: Column(
                             children: [
                               Text(
@@ -61,6 +61,7 @@ class _Verses_PageState extends State<Verses_Page> {
           ],
         ),
       ),
+      backgroundColor: Colors.grey,
     );
   }
 }
